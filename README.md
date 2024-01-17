@@ -1,6 +1,7 @@
 # CallMeMaybe
 
 <img src="https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white">
+<img src="https://img.shields.io/badge/Code%20coverage-82%20%25-blue.svg">
 
 > An iOS app for experimenting calling features with CallKit, PushKit and AgoraKit.
 
