@@ -30,7 +30,7 @@ final class CallingManagerTests: QuickSpec {
                 beforeEach {
                     sut = CallingManager()
                 }
-                it("sets the property provier to CXProvider instance") {
+                it("sets the property provider to CXProvider instance") {
                     let provider: CXProvider? = Mirror.extract("provider", from: sut)
                     expect(provider).toNot(beNil())
                 }

@@ -53,11 +53,18 @@ final class CallView: UIScrollView, CallViewProtocol {
     }
 
     private func addConstraints() {
-        makeCallButton.anchor(heightConstant: 44)
-        receiveCallButton.anchor(heightConstant: 44)
+        makeCallButton.translatesAutoresizingMaskIntoConstraints = false
+        makeCallButton.heightAnchor.constraint(equalToConstant: 44).isActive = true
 
-        stackView.fillToSuperview(padding: Spacing.large, safeArea: false)
-        stackView.anchor(width: widthAnchor, padding: 48)
+        receiveCallButton.translatesAutoresizingMaskIntoConstraints = false
+        receiveCallButton.heightAnchor.constraint(equalToConstant: 44).isActive = true
+
+        stackView.translatesAutoresizingMaskIntoConstraints = false
+        stackView.topAnchor.constraint(equalTo: topAnchor, constant: Spacing.large).isActive = true
+        stackView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: Spacing.large).isActive = true
+        stackView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -Spacing.large).isActive = true
+        stackView.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -Spacing.large).isActive = true
+        stackView.widthAnchor.constraint(equalTo: widthAnchor, constant: -48).isActive = true
     }
 
     private func bindLayoutEvents() {

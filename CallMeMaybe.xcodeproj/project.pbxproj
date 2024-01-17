@@ -9,10 +9,7 @@
 /* Begin PBXBuildFile section */
 		8D8280B22B57152900BC7F02 /* CallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8280B12B57152900BC7F02 /* CallView.swift */; };
 		8D8280B52B5715F400BC7F02 /* Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8280B42B5715F400BC7F02 /* Spacing.swift */; };
-		8D8280B72B57160C00BC7F02 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D8280B62B57160C00BC7F02 /* Localizable.strings */; };
 		8D8280B92B57165D00BC7F02 /* LocalizedStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8280B82B57165D00BC7F02 /* LocalizedStrings.swift */; };
-		8D8280BB2B5716BF00BC7F02 /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8280BA2B5716BF00BC7F02 /* UIView+Constraints.swift */; };
-		8D8280BD2B57170800BC7F02 /* UIView+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8280BC2B57170800BC7F02 /* UIView+Helpers.swift */; };
 		8D8280C52B57193C00BC7F02 /* Mirror+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8280C32B57193C00BC7F02 /* Mirror+Extensions.swift */; };
 		8D8280C92B5719BA00BC7F02 /* CallViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8280C82B5719BA00BC7F02 /* CallViewModel.swift */; };
 		8D8280CC2B571A6D00BC7F02 /* CallProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8280CB2B571A6D00BC7F02 /* CallProtocols.swift */; };
@@ -36,12 +33,17 @@
 		8DE496622B5750E300FA0DC9 /* DispatchQueueProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE496612B5750E300FA0DC9 /* DispatchQueueProtocol.swift */; };
 		8DE496642B5752F500FA0DC9 /* DispatchQueueMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE496632B5752F500FA0DC9 /* DispatchQueueMock.swift */; };
 		8DE496672B575E0600FA0DC9 /* CallingManagerSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE496662B575E0600FA0DC9 /* CallingManagerSpy.swift */; };
-		8DE496692B575E7500FA0DC9 /* ViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE496682B575E7500FA0DC9 /* ViewModelTests.swift */; };
+		8DE496692B575E7500FA0DC9 /* CallViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE496682B575E7500FA0DC9 /* CallViewModelTests.swift */; };
 		8DE4966B2B57606600FA0DC9 /* CXProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE4966A2B57606600FA0DC9 /* CXProviderProtocol.swift */; };
 		8DE4966D2B57630000FA0DC9 /* CallingManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE4966C2B57630000FA0DC9 /* CallingManagerTests.swift */; };
 		8DE4966F2B57632100FA0DC9 /* CommunicationManagerSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE4966E2B57632100FA0DC9 /* CommunicationManagerSpy.swift */; };
 		8DE496712B57644800FA0DC9 /* PermissionsManagerSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE496702B57644800FA0DC9 /* PermissionsManagerSpy.swift */; };
 		8DE496732B57649400FA0DC9 /* ProviderSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE496722B57649400FA0DC9 /* ProviderSpy.swift */; };
+		8DE496762B576C3600FA0DC9 /* CallViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE496752B576C3600FA0DC9 /* CallViewControllerTests.swift */; };
+		8DE496782B576C5500FA0DC9 /* CallViewModelSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE496772B576C5500FA0DC9 /* CallViewModelSpy.swift */; };
+		8DE4967A2B576EE700FA0DC9 /* CallViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE496792B576EE700FA0DC9 /* CallViewTests.swift */; };
+		8DE4967C2B576FE000FA0DC9 /* NotificationManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE4967B2B576FE000FA0DC9 /* NotificationManagerTests.swift */; };
+		8DE4967D2B5773E900FA0DC9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8DE4967F2B5773E900FA0DC9 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,10 +59,7 @@
 /* Begin PBXFileReference section */
 		8D8280B12B57152900BC7F02 /* CallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallView.swift; sourceTree = "<group>"; };
 		8D8280B42B5715F400BC7F02 /* Spacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacing.swift; sourceTree = "<group>"; };
-		8D8280B62B57160C00BC7F02 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		8D8280B82B57165D00BC7F02 /* LocalizedStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedStrings.swift; sourceTree = "<group>"; };
-		8D8280BA2B5716BF00BC7F02 /* UIView+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
-		8D8280BC2B57170800BC7F02 /* UIView+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Helpers.swift"; sourceTree = "<group>"; };
 		8D8280C32B57193C00BC7F02 /* Mirror+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Mirror+Extensions.swift"; sourceTree = "<group>"; };
 		8D8280C82B5719BA00BC7F02 /* CallViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallViewModel.swift; sourceTree = "<group>"; };
 		8D8280CB2B571A6D00BC7F02 /* CallProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallProtocols.swift; sourceTree = "<group>"; };
@@ -85,13 +84,19 @@
 		8DE496612B5750E300FA0DC9 /* DispatchQueueProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchQueueProtocol.swift; sourceTree = "<group>"; };
 		8DE496632B5752F500FA0DC9 /* DispatchQueueMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchQueueMock.swift; sourceTree = "<group>"; };
 		8DE496662B575E0600FA0DC9 /* CallingManagerSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallingManagerSpy.swift; sourceTree = "<group>"; };
-		8DE496682B575E7500FA0DC9 /* ViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelTests.swift; sourceTree = "<group>"; };
+		8DE496682B575E7500FA0DC9 /* CallViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallViewModelTests.swift; sourceTree = "<group>"; };
 		8DE4966A2B57606600FA0DC9 /* CXProviderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CXProviderProtocol.swift; sourceTree = "<group>"; };
 		8DE4966C2B57630000FA0DC9 /* CallingManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallingManagerTests.swift; sourceTree = "<group>"; };
 		8DE4966E2B57632100FA0DC9 /* CommunicationManagerSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunicationManagerSpy.swift; sourceTree = "<group>"; };
 		8DE496702B57644800FA0DC9 /* PermissionsManagerSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionsManagerSpy.swift; sourceTree = "<group>"; };
 		8DE496722B57649400FA0DC9 /* ProviderSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderSpy.swift; sourceTree = "<group>"; };
 		8DE496742B576B0400FA0DC9 /* CallMeMaybe.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = CallMeMaybe.xctestplan; sourceTree = "<group>"; };
+		8DE496752B576C3600FA0DC9 /* CallViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallViewControllerTests.swift; sourceTree = "<group>"; };
+		8DE496772B576C5500FA0DC9 /* CallViewModelSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallViewModelSpy.swift; sourceTree = "<group>"; };
+		8DE496792B576EE700FA0DC9 /* CallViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallViewTests.swift; sourceTree = "<group>"; };
+		8DE4967B2B576FE000FA0DC9 /* NotificationManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManagerTests.swift; sourceTree = "<group>"; };
+		8DE4967E2B5773E900FA0DC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8DE496802B57741E00FA0DC9 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,8 +124,6 @@
 			isa = PBXGroup;
 			children = (
 				8D8280B42B5715F400BC7F02 /* Spacing.swift */,
-				8D8280BA2B5716BF00BC7F02 /* UIView+Constraints.swift */,
-				8D8280BC2B57170800BC7F02 /* UIView+Helpers.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -137,7 +140,9 @@
 			isa = PBXGroup;
 			children = (
 				8DE496652B575DFA00FA0DC9 /* Doubles */,
-				8DE496682B575E7500FA0DC9 /* ViewModelTests.swift */,
+				8DE496682B575E7500FA0DC9 /* CallViewModelTests.swift */,
+				8DE496752B576C3600FA0DC9 /* CallViewControllerTests.swift */,
+				8DE496792B576EE700FA0DC9 /* CallViewTests.swift */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -148,6 +153,7 @@
 				8D8280CD2B573A2A00BC7F02 /* Doubles */,
 				8D8280D02B573B4B00BC7F02 /* CommunicationManagerTests.swift */,
 				8DE4966C2B57630000FA0DC9 /* CallingManagerTests.swift */,
+				8DE4967B2B576FE000FA0DC9 /* NotificationManagerTests.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -224,7 +230,7 @@
 				8D8A2C3E2B569CDB00F45E45 /* Assets.xcassets */,
 				8D8A2C402B569CDB00F45E45 /* LaunchScreen.storyboard */,
 				8D8A2C432B569CDB00F45E45 /* Info.plist */,
-				8D8280B62B57160C00BC7F02 /* Localizable.strings */,
+				8DE4967F2B5773E900FA0DC9 /* Localizable.strings */,
 				8D8280B82B57165D00BC7F02 /* LocalizedStrings.swift */,
 			);
 			path = Resources;
@@ -282,6 +288,7 @@
 			isa = PBXGroup;
 			children = (
 				8DE496662B575E0600FA0DC9 /* CallingManagerSpy.swift */,
+				8DE496772B576C5500FA0DC9 /* CallViewModelSpy.swift */,
 			);
 			path = Doubles;
 			sourceTree = "<group>";
@@ -357,6 +364,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"pt-BR",
 			);
 			mainGroup = 8D8A2C292B569CD800F45E45;
 			packageReferences = (
@@ -380,7 +388,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D8A2C422B569CDB00F45E45 /* LaunchScreen.storyboard in Resources */,
-				8D8280B72B57160C00BC7F02 /* Localizable.strings in Resources */,
+				8DE4967D2B5773E900FA0DC9 /* Localizable.strings in Resources */,
 				8D8A2C3F2B569CDB00F45E45 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,13 +407,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D8280BD2B57170800BC7F02 /* UIView+Helpers.swift in Sources */,
 				8DE4966B2B57606600FA0DC9 /* CXProviderProtocol.swift in Sources */,
 				8D8A2C6E2B56D3AB00F45E45 /* CallingManager.swift in Sources */,
 				8D8280B52B5715F400BC7F02 /* Spacing.swift in Sources */,
 				8D8280C92B5719BA00BC7F02 /* CallViewModel.swift in Sources */,
 				8D8A2C3A2B569CD800F45E45 /* CallViewController.swift in Sources */,
-				8D8280BB2B5716BF00BC7F02 /* UIView+Constraints.swift in Sources */,
 				8D8A2C722B56D3C400F45E45 /* CommunicationManager.swift in Sources */,
 				8D8A2C702B56D3B600F45E45 /* NotificationManager.swift in Sources */,
 				8D8A2C362B569CD800F45E45 /* AppDelegate.swift in Sources */,
@@ -426,15 +432,19 @@
 			files = (
 				8D8280C52B57193C00BC7F02 /* Mirror+Extensions.swift in Sources */,
 				8D8280CF2B573A4200BC7F02 /* AgoraKitSpy.swift in Sources */,
+				8DE496762B576C3600FA0DC9 /* CallViewControllerTests.swift in Sources */,
 				8D8280D12B573B4B00BC7F02 /* CommunicationManagerTests.swift in Sources */,
 				8DE496642B5752F500FA0DC9 /* DispatchQueueMock.swift in Sources */,
 				8DE496732B57649400FA0DC9 /* ProviderSpy.swift in Sources */,
 				8DE4966D2B57630000FA0DC9 /* CallingManagerTests.swift in Sources */,
 				8DE4965A2B573CE500FA0DC9 /* UIApplicationSpy.swift in Sources */,
-				8DE496692B575E7500FA0DC9 /* ViewModelTests.swift in Sources */,
+				8DE4967C2B576FE000FA0DC9 /* NotificationManagerTests.swift in Sources */,
+				8DE496692B575E7500FA0DC9 /* CallViewModelTests.swift in Sources */,
 				8DE496712B57644800FA0DC9 /* PermissionsManagerSpy.swift in Sources */,
 				8DE496672B575E0600FA0DC9 /* CallingManagerSpy.swift in Sources */,
 				8DE4966F2B57632100FA0DC9 /* CommunicationManagerSpy.swift in Sources */,
+				8DE4967A2B576EE700FA0DC9 /* CallViewTests.swift in Sources */,
+				8DE496782B576C5500FA0DC9 /* CallViewModelSpy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +467,15 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		8DE4967F2B5773E900FA0DC9 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DE4967E2B5773E900FA0DC9 /* en */,
+				8DE496802B57741E00FA0DC9 /* pt-BR */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -464,6 +483,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -524,6 +544,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
