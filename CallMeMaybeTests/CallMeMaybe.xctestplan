@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "F2CD01C8-D755-4E81-AA2F-5A9CFBBA502E",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:CallMeMaybe.xcodeproj",
+      "identifier" : "8D8A2C312B569CD800F45E45",
+      "name" : "CallMeMaybe"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:CallMeMaybe.xcodeproj",
+        "identifier" : "8D8A2C472B569CDB00F45E45",
+        "name" : "CallMeMaybeTests"
+      }
+    }
+  ],
+  "version" : 1
+}

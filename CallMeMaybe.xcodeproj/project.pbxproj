@@ -35,6 +35,13 @@
 		8DE496602B573D8700FA0DC9 /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = 8DE4965F2B573D8700FA0DC9 /* Nimble */; };
 		8DE496622B5750E300FA0DC9 /* DispatchQueueProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE496612B5750E300FA0DC9 /* DispatchQueueProtocol.swift */; };
 		8DE496642B5752F500FA0DC9 /* DispatchQueueMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE496632B5752F500FA0DC9 /* DispatchQueueMock.swift */; };
+		8DE496672B575E0600FA0DC9 /* CallingManagerSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE496662B575E0600FA0DC9 /* CallingManagerSpy.swift */; };
+		8DE496692B575E7500FA0DC9 /* ViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE496682B575E7500FA0DC9 /* ViewModelTests.swift */; };
+		8DE4966B2B57606600FA0DC9 /* CXProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE4966A2B57606600FA0DC9 /* CXProviderProtocol.swift */; };
+		8DE4966D2B57630000FA0DC9 /* CallingManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE4966C2B57630000FA0DC9 /* CallingManagerTests.swift */; };
+		8DE4966F2B57632100FA0DC9 /* CommunicationManagerSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE4966E2B57632100FA0DC9 /* CommunicationManagerSpy.swift */; };
+		8DE496712B57644800FA0DC9 /* PermissionsManagerSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE496702B57644800FA0DC9 /* PermissionsManagerSpy.swift */; };
+		8DE496732B57649400FA0DC9 /* ProviderSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE496722B57649400FA0DC9 /* ProviderSpy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +84,14 @@
 		8DE496592B573CE500FA0DC9 /* UIApplicationSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationSpy.swift; sourceTree = "<group>"; };
 		8DE496612B5750E300FA0DC9 /* DispatchQueueProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchQueueProtocol.swift; sourceTree = "<group>"; };
 		8DE496632B5752F500FA0DC9 /* DispatchQueueMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchQueueMock.swift; sourceTree = "<group>"; };
+		8DE496662B575E0600FA0DC9 /* CallingManagerSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallingManagerSpy.swift; sourceTree = "<group>"; };
+		8DE496682B575E7500FA0DC9 /* ViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelTests.swift; sourceTree = "<group>"; };
+		8DE4966A2B57606600FA0DC9 /* CXProviderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CXProviderProtocol.swift; sourceTree = "<group>"; };
+		8DE4966C2B57630000FA0DC9 /* CallingManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallingManagerTests.swift; sourceTree = "<group>"; };
+		8DE4966E2B57632100FA0DC9 /* CommunicationManagerSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunicationManagerSpy.swift; sourceTree = "<group>"; };
+		8DE496702B57644800FA0DC9 /* PermissionsManagerSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionsManagerSpy.swift; sourceTree = "<group>"; };
+		8DE496722B57649400FA0DC9 /* ProviderSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderSpy.swift; sourceTree = "<group>"; };
+		8DE496742B576B0400FA0DC9 /* CallMeMaybe.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = CallMeMaybe.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +136,8 @@
 		8D8280C62B57194100BC7F02 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				8DE496652B575DFA00FA0DC9 /* Doubles */,
+				8DE496682B575E7500FA0DC9 /* ViewModelTests.swift */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -130,6 +147,7 @@
 			children = (
 				8D8280CD2B573A2A00BC7F02 /* Doubles */,
 				8D8280D02B573B4B00BC7F02 /* CommunicationManagerTests.swift */,
+				8DE4966C2B57630000FA0DC9 /* CallingManagerTests.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -140,6 +158,9 @@
 				8D8280CE2B573A4200BC7F02 /* AgoraKitSpy.swift */,
 				8DE496592B573CE500FA0DC9 /* UIApplicationSpy.swift */,
 				8DE496632B5752F500FA0DC9 /* DispatchQueueMock.swift */,
+				8DE4966E2B57632100FA0DC9 /* CommunicationManagerSpy.swift */,
+				8DE496702B57644800FA0DC9 /* PermissionsManagerSpy.swift */,
+				8DE496722B57649400FA0DC9 /* ProviderSpy.swift */,
 			);
 			path = Doubles;
 			sourceTree = "<group>";
@@ -179,6 +200,7 @@
 		8D8A2C4B2B569CDB00F45E45 /* CallMeMaybeTests */ = {
 			isa = PBXGroup;
 			children = (
+				8DE496742B576B0400FA0DC9 /* CallMeMaybe.xctestplan */,
 				8D8280C72B57194800BC7F02 /* Managers */,
 				8D8280C62B57194100BC7F02 /* Scenes */,
 				8D8280C12B57193C00BC7F02 /* Utils */,
@@ -251,8 +273,17 @@
 				8D8A2C742B56D9B500F45E45 /* UIApplicationProtocol.swift */,
 				8D8A2C772B56E2FC00F45E45 /* AgoraKitProtocol.swift */,
 				8DE496612B5750E300FA0DC9 /* DispatchQueueProtocol.swift */,
+				8DE4966A2B57606600FA0DC9 /* CXProviderProtocol.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8DE496652B575DFA00FA0DC9 /* Doubles */ = {
+			isa = PBXGroup;
+			children = (
+				8DE496662B575E0600FA0DC9 /* CallingManagerSpy.swift */,
+			);
+			path = Doubles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -369,6 +400,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D8280BD2B57170800BC7F02 /* UIView+Helpers.swift in Sources */,
+				8DE4966B2B57606600FA0DC9 /* CXProviderProtocol.swift in Sources */,
 				8D8A2C6E2B56D3AB00F45E45 /* CallingManager.swift in Sources */,
 				8D8280B52B5715F400BC7F02 /* Spacing.swift in Sources */,
 				8D8280C92B5719BA00BC7F02 /* CallViewModel.swift in Sources */,
@@ -396,7 +428,13 @@
 				8D8280CF2B573A4200BC7F02 /* AgoraKitSpy.swift in Sources */,
 				8D8280D12B573B4B00BC7F02 /* CommunicationManagerTests.swift in Sources */,
 				8DE496642B5752F500FA0DC9 /* DispatchQueueMock.swift in Sources */,
+				8DE496732B57649400FA0DC9 /* ProviderSpy.swift in Sources */,
+				8DE4966D2B57630000FA0DC9 /* CallingManagerTests.swift in Sources */,
 				8DE4965A2B573CE500FA0DC9 /* UIApplicationSpy.swift in Sources */,
+				8DE496692B575E7500FA0DC9 /* ViewModelTests.swift in Sources */,
+				8DE496712B57644800FA0DC9 /* PermissionsManagerSpy.swift in Sources */,
+				8DE496672B575E0600FA0DC9 /* CallingManagerSpy.swift in Sources */,
+				8DE4966F2B57632100FA0DC9 /* CommunicationManagerSpy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
