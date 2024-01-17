@@ -68,7 +68,6 @@ extension CallingManager: CallingManagerProtocol {
                 self?.communicationManager.didStartCall(with: callId)
             }
         })
-//        provider.reportOutgoingCall(with: call, startedConnectingAt: nil)
     }
 }
 

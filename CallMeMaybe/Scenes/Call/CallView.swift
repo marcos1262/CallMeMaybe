@@ -5,10 +5,6 @@ final class CallView: UIScrollView, CallViewProtocol {
     var didTapMakeCall: (() -> Void)?
     var didTapReceiveCall: (() -> Void)?
 
-//    private let roomNameTextField: UITextField = {
-//
-//    }()
-
     private let makeCallButton: UIButton = {
         let view = UIButton(type: .custom)
         view.layer.cornerRadius = 8

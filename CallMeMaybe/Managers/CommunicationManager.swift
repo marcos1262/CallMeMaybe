@@ -13,11 +13,6 @@ final class CommunicationManager: NSObject {
     private let dispatchQueue: DispatchQueueProtocol
 
     private let appID: String = "6839bee073444f04a4364a00b97b748d"
-//    private let channelName: String = "test"
-//    private let token = "007eJxTYDiXvsPvoe82/ZPrF287famlaoHDlTuzMlfs9X/pmjbZh3ORAoOZhbFlUmqqgbmxiYl" +
-//    "JmoFJoomxmUmigUGSpXmSuYlFSsGnZakNgYwMv1uZWRgZIBDEZ2EoSS0uYWAAAB93IfQ="
-//    private let rtcToken = "007eJxTYPi6xaFY+9guFclNv3q7p50L2heX0PRXPzdHceoifVcfZlMFBjMLY8uk1FQDc2MT" +
-//    "E5M0A5NEE2Mzk0QDgyRL8yRzE4sUw5ZlqQ2BjAxZfnIMjFAI4vMyJCfm5OjmpurmJlYmpTIwAAAo6yCn"
 
     init(agoraKit: AgoraKitProtocol? = nil,
          uiApplication: UIApplicationProtocol = UIApplication.shared,

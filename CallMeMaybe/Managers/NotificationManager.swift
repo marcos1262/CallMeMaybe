@@ -46,7 +46,7 @@ extension NotificationManager: PKPushRegistryDelegate {
         debugPrint("[DEBUG] Received call")
         // TODO: Receive call info from notification
         let mockUser = "Marcos Paulo"
-        let mockCallId = "call-me-maybe"
+        let mockCallId = "test"
         callingManager.didReceiveCall(from: mockUser, callId: mockCallId)
         completion()
     }

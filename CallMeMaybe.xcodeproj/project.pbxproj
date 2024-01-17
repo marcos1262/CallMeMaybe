@@ -13,7 +13,6 @@
 		8D8280B92B57165D00BC7F02 /* LocalizedStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8280B82B57165D00BC7F02 /* LocalizedStrings.swift */; };
 		8D8280BB2B5716BF00BC7F02 /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8280BA2B5716BF00BC7F02 /* UIView+Constraints.swift */; };
 		8D8280BD2B57170800BC7F02 /* UIView+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8280BC2B57170800BC7F02 /* UIView+Helpers.swift */; };
-		8D8280C42B57193C00BC7F02 /* CGSize+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8280C22B57193C00BC7F02 /* CGSize+Extensions.swift */; };
 		8D8280C52B57193C00BC7F02 /* Mirror+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8280C32B57193C00BC7F02 /* Mirror+Extensions.swift */; };
 		8D8280C92B5719BA00BC7F02 /* CallViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8280C82B5719BA00BC7F02 /* CallViewModel.swift */; };
 		8D8280CC2B571A6D00BC7F02 /* CallProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8280CB2B571A6D00BC7F02 /* CallProtocols.swift */; };
@@ -55,7 +54,6 @@
 		8D8280B82B57165D00BC7F02 /* LocalizedStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedStrings.swift; sourceTree = "<group>"; };
 		8D8280BA2B5716BF00BC7F02 /* UIView+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
 		8D8280BC2B57170800BC7F02 /* UIView+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Helpers.swift"; sourceTree = "<group>"; };
-		8D8280C22B57193C00BC7F02 /* CGSize+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGSize+Extensions.swift"; sourceTree = "<group>"; };
 		8D8280C32B57193C00BC7F02 /* Mirror+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Mirror+Extensions.swift"; sourceTree = "<group>"; };
 		8D8280C82B5719BA00BC7F02 /* CallViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallViewModel.swift; sourceTree = "<group>"; };
 		8D8280CB2B571A6D00BC7F02 /* CallProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallProtocols.swift; sourceTree = "<group>"; };
@@ -115,7 +113,6 @@
 		8D8280C12B57193C00BC7F02 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				8D8280C22B57193C00BC7F02 /* CGSize+Extensions.swift */,
 				8D8280C32B57193C00BC7F02 /* Mirror+Extensions.swift */,
 			);
 			path = Utils;
@@ -399,7 +396,6 @@
 				8D8280CF2B573A4200BC7F02 /* AgoraKitSpy.swift in Sources */,
 				8D8280D12B573B4B00BC7F02 /* CommunicationManagerTests.swift in Sources */,
 				8DE496642B5752F500FA0DC9 /* DispatchQueueMock.swift in Sources */,
-				8D8280C42B57193C00BC7F02 /* CGSize+Extensions.swift in Sources */,
 				8DE4965A2B573CE500FA0DC9 /* UIApplicationSpy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
