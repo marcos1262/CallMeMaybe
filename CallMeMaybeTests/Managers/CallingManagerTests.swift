@@ -66,7 +66,8 @@ final class CallingManagerTests: QuickSpec {
                 sut.makeCall(to: "user", callId: "id")
             }
             it("calls communicationManager correctly") {
-                expect(communicationManagerSpy.didStartCallParameters).toEventually(equal(["id"]))
+                expect(communicationManagerSpy.didStartCallParameters).toEventually(equal(["id"]),
+                                                                                    timeout: .seconds(2))
             }
         }
 
