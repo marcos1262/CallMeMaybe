@@ -6,9 +6,9 @@
 
 ## 📱 Screenshots
 
-<img width="300" src="https://github.com/marcos1262/poly-token/blob/main/screenshot1.png">        <img width="300" src="https://github.com/marcos1262/poly-token/blob/main/screenshot2.png">
+<img width="300" src="https://github.com/marcos1262/CallMeMaybe/blob/main/screenshot1.PNG">        <img width="300" src="https://github.com/marcos1262/CallMeMaybe/blob/main/screenshot2.PNG">
 
-<img width="300" src="https://github.com/marcos1262/poly-token/blob/main/screenshot3.png">        <img width="300" src="https://github.com/marcos1262/poly-token/blob/main/screenshot4.png">
+<img width="300" src="https://github.com/marcos1262/CallMeMaybe/blob/main/screenshot3.PNG">        <img width="300" src="https://github.com/marcos1262/CallMeMaybe/blob/main/screenshot4.PNG">
 
 ## 👩🏾‍💻 Technologies
 - [x] UIKit
