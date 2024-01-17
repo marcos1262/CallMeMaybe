@@ -7,15 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D8280B22B57152900BC7F02 /* CallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8280B12B57152900BC7F02 /* CallView.swift */; };
+		8D8280B52B5715F400BC7F02 /* Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8280B42B5715F400BC7F02 /* Spacing.swift */; };
+		8D8280B72B57160C00BC7F02 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D8280B62B57160C00BC7F02 /* Localizable.strings */; };
+		8D8280B92B57165D00BC7F02 /* LocalizedStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8280B82B57165D00BC7F02 /* LocalizedStrings.swift */; };
+		8D8280BB2B5716BF00BC7F02 /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8280BA2B5716BF00BC7F02 /* UIView+Constraints.swift */; };
+		8D8280BD2B57170800BC7F02 /* UIView+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8280BC2B57170800BC7F02 /* UIView+Helpers.swift */; };
+		8D8280C42B57193C00BC7F02 /* CGSize+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8280C22B57193C00BC7F02 /* CGSize+Extensions.swift */; };
+		8D8280C52B57193C00BC7F02 /* Mirror+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8280C32B57193C00BC7F02 /* Mirror+Extensions.swift */; };
+		8D8280C92B5719BA00BC7F02 /* CallViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8280C82B5719BA00BC7F02 /* CallViewModel.swift */; };
+		8D8280CC2B571A6D00BC7F02 /* CallProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8280CB2B571A6D00BC7F02 /* CallProtocols.swift */; };
+		8D8280CF2B573A4200BC7F02 /* AgoraKitSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8280CE2B573A4200BC7F02 /* AgoraKitSpy.swift */; };
+		8D8280D12B573B4B00BC7F02 /* CommunicationManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8280D02B573B4B00BC7F02 /* CommunicationManagerTests.swift */; };
 		8D8A2C362B569CD800F45E45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8A2C352B569CD800F45E45 /* AppDelegate.swift */; };
 		8D8A2C382B569CD800F45E45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8A2C372B569CD800F45E45 /* SceneDelegate.swift */; };
-		8D8A2C3A2B569CD800F45E45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8A2C392B569CD800F45E45 /* ViewController.swift */; };
-		8D8A2C3D2B569CD800F45E45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D8A2C3B2B569CD800F45E45 /* Main.storyboard */; };
+		8D8A2C3A2B569CD800F45E45 /* CallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8A2C392B569CD800F45E45 /* CallViewController.swift */; };
 		8D8A2C3F2B569CDB00F45E45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D8A2C3E2B569CDB00F45E45 /* Assets.xcassets */; };
 		8D8A2C422B569CDB00F45E45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D8A2C402B569CDB00F45E45 /* LaunchScreen.storyboard */; };
-		8D8A2C4D2B569CDB00F45E45 /* CallMeMaybeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8A2C4C2B569CDB00F45E45 /* CallMeMaybeTests.swift */; };
-		8D8A2C572B569CDB00F45E45 /* CallMeMaybeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8A2C562B569CDB00F45E45 /* CallMeMaybeUITests.swift */; };
-		8D8A2C592B569CDB00F45E45 /* CallMeMaybeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8A2C582B569CDB00F45E45 /* CallMeMaybeUITestsLaunchTests.swift */; };
+		8D8A2C6A2B56A2A400F45E45 /* RtcBasic in Frameworks */ = {isa = PBXBuildFile; productRef = 8D8A2C692B56A2A400F45E45 /* RtcBasic */; };
+		8D8A2C6E2B56D3AB00F45E45 /* CallingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8A2C6D2B56D3AB00F45E45 /* CallingManager.swift */; };
+		8D8A2C702B56D3B600F45E45 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8A2C6F2B56D3B600F45E45 /* NotificationManager.swift */; };
+		8D8A2C722B56D3C400F45E45 /* CommunicationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8A2C712B56D3C400F45E45 /* CommunicationManager.swift */; };
+		8D8A2C752B56D9B500F45E45 /* UIApplicationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8A2C742B56D9B500F45E45 /* UIApplicationProtocol.swift */; };
+		8D8A2C782B56E2FC00F45E45 /* AgoraKitProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8A2C772B56E2FC00F45E45 /* AgoraKitProtocol.swift */; };
+		8D8A2C7A2B56EA7500F45E45 /* PermissionsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8A2C792B56EA7500F45E45 /* PermissionsManager.swift */; };
+		8DE4965A2B573CE500FA0DC9 /* UIApplicationSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE496592B573CE500FA0DC9 /* UIApplicationSpy.swift */; };
+		8DE4965D2B573D6A00FA0DC9 /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = 8DE4965C2B573D6A00FA0DC9 /* Quick */; };
+		8DE496602B573D8700FA0DC9 /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = 8DE4965F2B573D8700FA0DC9 /* Nimble */; };
+		8DE496622B5750E300FA0DC9 /* DispatchQueueProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE496612B5750E300FA0DC9 /* DispatchQueueProtocol.swift */; };
+		8DE496642B5752F500FA0DC9 /* DispatchQueueMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE496632B5752F500FA0DC9 /* DispatchQueueMock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,29 +46,39 @@
 			remoteGlobalIDString = 8D8A2C312B569CD800F45E45;
 			remoteInfo = CallMeMaybe;
 		};
-		8D8A2C532B569CDB00F45E45 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8D8A2C2A2B569CD800F45E45 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8D8A2C312B569CD800F45E45;
-			remoteInfo = CallMeMaybe;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D8280B12B57152900BC7F02 /* CallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallView.swift; sourceTree = "<group>"; };
+		8D8280B42B5715F400BC7F02 /* Spacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacing.swift; sourceTree = "<group>"; };
+		8D8280B62B57160C00BC7F02 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		8D8280B82B57165D00BC7F02 /* LocalizedStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedStrings.swift; sourceTree = "<group>"; };
+		8D8280BA2B5716BF00BC7F02 /* UIView+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
+		8D8280BC2B57170800BC7F02 /* UIView+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Helpers.swift"; sourceTree = "<group>"; };
+		8D8280C22B57193C00BC7F02 /* CGSize+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGSize+Extensions.swift"; sourceTree = "<group>"; };
+		8D8280C32B57193C00BC7F02 /* Mirror+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Mirror+Extensions.swift"; sourceTree = "<group>"; };
+		8D8280C82B5719BA00BC7F02 /* CallViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallViewModel.swift; sourceTree = "<group>"; };
+		8D8280CB2B571A6D00BC7F02 /* CallProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallProtocols.swift; sourceTree = "<group>"; };
+		8D8280CE2B573A4200BC7F02 /* AgoraKitSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgoraKitSpy.swift; sourceTree = "<group>"; };
+		8D8280D02B573B4B00BC7F02 /* CommunicationManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunicationManagerTests.swift; sourceTree = "<group>"; };
 		8D8A2C322B569CD800F45E45 /* CallMeMaybe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CallMeMaybe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D8A2C352B569CD800F45E45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D8A2C372B569CD800F45E45 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8D8A2C392B569CD800F45E45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8D8A2C3C2B569CD800F45E45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D8A2C392B569CD800F45E45 /* CallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallViewController.swift; sourceTree = "<group>"; };
 		8D8A2C3E2B569CDB00F45E45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D8A2C412B569CDB00F45E45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D8A2C432B569CDB00F45E45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D8A2C482B569CDB00F45E45 /* CallMeMaybeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CallMeMaybeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D8A2C4C2B569CDB00F45E45 /* CallMeMaybeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallMeMaybeTests.swift; sourceTree = "<group>"; };
-		8D8A2C522B569CDB00F45E45 /* CallMeMaybeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CallMeMaybeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D8A2C562B569CDB00F45E45 /* CallMeMaybeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallMeMaybeUITests.swift; sourceTree = "<group>"; };
-		8D8A2C582B569CDB00F45E45 /* CallMeMaybeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallMeMaybeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8D8A2C6D2B56D3AB00F45E45 /* CallingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallingManager.swift; sourceTree = "<group>"; };
+		8D8A2C6F2B56D3B600F45E45 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		8D8A2C712B56D3C400F45E45 /* CommunicationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunicationManager.swift; sourceTree = "<group>"; };
+		8D8A2C742B56D9B500F45E45 /* UIApplicationProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationProtocol.swift; sourceTree = "<group>"; };
+		8D8A2C772B56E2FC00F45E45 /* AgoraKitProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgoraKitProtocol.swift; sourceTree = "<group>"; };
+		8D8A2C792B56EA7500F45E45 /* PermissionsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionsManager.swift; sourceTree = "<group>"; };
+		8D8A2C7B2B5706CA00F45E45 /* CallMeMaybe.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = CallMeMaybe.entitlements; sourceTree = "<group>"; };
+		8DE496592B573CE500FA0DC9 /* UIApplicationSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationSpy.swift; sourceTree = "<group>"; };
+		8DE496612B5750E300FA0DC9 /* DispatchQueueProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchQueueProtocol.swift; sourceTree = "<group>"; };
+		8DE496632B5752F500FA0DC9 /* DispatchQueueMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchQueueMock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D8A2C6A2B56A2A400F45E45 /* RtcBasic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,26 +94,66 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8D8A2C4F2B569CDB00F45E45 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				8DE4965D2B573D6A00FA0DC9 /* Quick in Frameworks */,
+				8DE496602B573D8700FA0DC9 /* Nimble in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D8280B32B5715E000BC7F02 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8D8280B42B5715F400BC7F02 /* Spacing.swift */,
+				8D8280BA2B5716BF00BC7F02 /* UIView+Constraints.swift */,
+				8D8280BC2B57170800BC7F02 /* UIView+Helpers.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8D8280C12B57193C00BC7F02 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8D8280C22B57193C00BC7F02 /* CGSize+Extensions.swift */,
+				8D8280C32B57193C00BC7F02 /* Mirror+Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8D8280C62B57194100BC7F02 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		8D8280C72B57194800BC7F02 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				8D8280CD2B573A2A00BC7F02 /* Doubles */,
+				8D8280D02B573B4B00BC7F02 /* CommunicationManagerTests.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		8D8280CD2B573A2A00BC7F02 /* Doubles */ = {
+			isa = PBXGroup;
+			children = (
+				8D8280CE2B573A4200BC7F02 /* AgoraKitSpy.swift */,
+				8DE496592B573CE500FA0DC9 /* UIApplicationSpy.swift */,
+				8DE496632B5752F500FA0DC9 /* DispatchQueueMock.swift */,
+			);
+			path = Doubles;
+			sourceTree = "<group>";
+		};
 		8D8A2C292B569CD800F45E45 = {
 			isa = PBXGroup;
 			children = (
 				8D8A2C342B569CD800F45E45 /* CallMeMaybe */,
 				8D8A2C4B2B569CDB00F45E45 /* CallMeMaybeTests */,
-				8D8A2C552B569CDB00F45E45 /* CallMeMaybeUITests */,
 				8D8A2C332B569CD800F45E45 /* Products */,
+				8D8A2C682B56A2A400F45E45 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,7 +162,6 @@
 			children = (
 				8D8A2C322B569CD800F45E45 /* CallMeMaybe.app */,
 				8D8A2C482B569CDB00F45E45 /* CallMeMaybeTests.xctest */,
-				8D8A2C522B569CDB00F45E45 /* CallMeMaybeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,13 +169,12 @@
 		8D8A2C342B569CD800F45E45 /* CallMeMaybe */ = {
 			isa = PBXGroup;
 			children = (
-				8D8A2C352B569CD800F45E45 /* AppDelegate.swift */,
-				8D8A2C372B569CD800F45E45 /* SceneDelegate.swift */,
-				8D8A2C392B569CD800F45E45 /* ViewController.swift */,
-				8D8A2C3B2B569CD800F45E45 /* Main.storyboard */,
-				8D8A2C3E2B569CDB00F45E45 /* Assets.xcassets */,
-				8D8A2C402B569CDB00F45E45 /* LaunchScreen.storyboard */,
-				8D8A2C432B569CDB00F45E45 /* Info.plist */,
+				8D8A2C6B2B56D37A00F45E45 /* Scenes */,
+				8D8A2C732B56D5F900F45E45 /* Managers */,
+				8D8A2C762B56E2EE00F45E45 /* Extensions */,
+				8D8280B32B5715E000BC7F02 /* Utils */,
+				8D8A2C662B569D7400F45E45 /* Resources */,
+				8D8A2C652B569D6700F45E45 /* App */,
 			);
 			path = CallMeMaybe;
 			sourceTree = "<group>";
@@ -113,18 +182,80 @@
 		8D8A2C4B2B569CDB00F45E45 /* CallMeMaybeTests */ = {
 			isa = PBXGroup;
 			children = (
-				8D8A2C4C2B569CDB00F45E45 /* CallMeMaybeTests.swift */,
+				8D8280C72B57194800BC7F02 /* Managers */,
+				8D8280C62B57194100BC7F02 /* Scenes */,
+				8D8280C12B57193C00BC7F02 /* Utils */,
 			);
 			path = CallMeMaybeTests;
 			sourceTree = "<group>";
 		};
-		8D8A2C552B569CDB00F45E45 /* CallMeMaybeUITests */ = {
+		8D8A2C652B569D6700F45E45 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				8D8A2C562B569CDB00F45E45 /* CallMeMaybeUITests.swift */,
-				8D8A2C582B569CDB00F45E45 /* CallMeMaybeUITestsLaunchTests.swift */,
+				8D8A2C352B569CD800F45E45 /* AppDelegate.swift */,
+				8D8A2C372B569CD800F45E45 /* SceneDelegate.swift */,
 			);
-			path = CallMeMaybeUITests;
+			path = App;
+			sourceTree = "<group>";
+		};
+		8D8A2C662B569D7400F45E45 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D8A2C7B2B5706CA00F45E45 /* CallMeMaybe.entitlements */,
+				8D8A2C3E2B569CDB00F45E45 /* Assets.xcassets */,
+				8D8A2C402B569CDB00F45E45 /* LaunchScreen.storyboard */,
+				8D8A2C432B569CDB00F45E45 /* Info.plist */,
+				8D8280B62B57160C00BC7F02 /* Localizable.strings */,
+				8D8280B82B57165D00BC7F02 /* LocalizedStrings.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8D8A2C682B56A2A400F45E45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D8A2C6B2B56D37A00F45E45 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				8D8A2C6C2B56D38100F45E45 /* Call */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		8D8A2C6C2B56D38100F45E45 /* Call */ = {
+			isa = PBXGroup;
+			children = (
+				8D8A2C392B569CD800F45E45 /* CallViewController.swift */,
+				8D8280B12B57152900BC7F02 /* CallView.swift */,
+				8D8280C82B5719BA00BC7F02 /* CallViewModel.swift */,
+				8D8280CB2B571A6D00BC7F02 /* CallProtocols.swift */,
+			);
+			path = Call;
+			sourceTree = "<group>";
+		};
+		8D8A2C732B56D5F900F45E45 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				8D8A2C6D2B56D3AB00F45E45 /* CallingManager.swift */,
+				8D8A2C712B56D3C400F45E45 /* CommunicationManager.swift */,
+				8D8A2C6F2B56D3B600F45E45 /* NotificationManager.swift */,
+				8D8A2C792B56EA7500F45E45 /* PermissionsManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		8D8A2C762B56E2EE00F45E45 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8D8A2C742B56D9B500F45E45 /* UIApplicationProtocol.swift */,
+				8D8A2C772B56E2FC00F45E45 /* AgoraKitProtocol.swift */,
+				8DE496612B5750E300FA0DC9 /* DispatchQueueProtocol.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +274,9 @@
 			dependencies = (
 			);
 			name = CallMeMaybe;
+			packageProductDependencies = (
+				8D8A2C692B56A2A400F45E45 /* RtcBasic */,
+			);
 			productName = CallMeMaybe;
 			productReference = 8D8A2C322B569CD800F45E45 /* CallMeMaybe.app */;
 			productType = "com.apple.product-type.application";
@@ -161,27 +295,13 @@
 				8D8A2C4A2B569CDB00F45E45 /* PBXTargetDependency */,
 			);
 			name = CallMeMaybeTests;
+			packageProductDependencies = (
+				8DE4965C2B573D6A00FA0DC9 /* Quick */,
+				8DE4965F2B573D8700FA0DC9 /* Nimble */,
+			);
 			productName = CallMeMaybeTests;
 			productReference = 8D8A2C482B569CDB00F45E45 /* CallMeMaybeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		8D8A2C512B569CDB00F45E45 /* CallMeMaybeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8D8A2C622B569CDB00F45E45 /* Build configuration list for PBXNativeTarget "CallMeMaybeUITests" */;
-			buildPhases = (
-				8D8A2C4E2B569CDB00F45E45 /* Sources */,
-				8D8A2C4F2B569CDB00F45E45 /* Frameworks */,
-				8D8A2C502B569CDB00F45E45 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8D8A2C542B569CDB00F45E45 /* PBXTargetDependency */,
-			);
-			name = CallMeMaybeUITests;
-			productName = CallMeMaybeUITests;
-			productReference = 8D8A2C522B569CDB00F45E45 /* CallMeMaybeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -200,10 +320,6 @@
 						CreatedOnToolsVersion = 14.3.1;
 						TestTargetID = 8D8A2C312B569CD800F45E45;
 					};
-					8D8A2C512B569CDB00F45E45 = {
-						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = 8D8A2C312B569CD800F45E45;
-					};
 				};
 			};
 			buildConfigurationList = 8D8A2C2D2B569CD800F45E45 /* Build configuration list for PBXProject "CallMeMaybe" */;
@@ -215,13 +331,17 @@
 				Base,
 			);
 			mainGroup = 8D8A2C292B569CD800F45E45;
+			packageReferences = (
+				8D8A2C672B56A20400F45E45 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */,
+				8DE4965B2B573D6A00FA0DC9 /* XCRemoteSwiftPackageReference "Quick" */,
+				8DE4965E2B573D8700FA0DC9 /* XCRemoteSwiftPackageReference "Nimble" */,
+			);
 			productRefGroup = 8D8A2C332B569CD800F45E45 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				8D8A2C312B569CD800F45E45 /* CallMeMaybe */,
 				8D8A2C472B569CDB00F45E45 /* CallMeMaybeTests */,
-				8D8A2C512B569CDB00F45E45 /* CallMeMaybeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,19 +352,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D8A2C422B569CDB00F45E45 /* LaunchScreen.storyboard in Resources */,
+				8D8280B72B57160C00BC7F02 /* Localizable.strings in Resources */,
 				8D8A2C3F2B569CDB00F45E45 /* Assets.xcassets in Resources */,
-				8D8A2C3D2B569CD800F45E45 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8D8A2C462B569CDB00F45E45 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8D8A2C502B569CDB00F45E45 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,9 +371,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D8A2C3A2B569CD800F45E45 /* ViewController.swift in Sources */,
+				8D8280BD2B57170800BC7F02 /* UIView+Helpers.swift in Sources */,
+				8D8A2C6E2B56D3AB00F45E45 /* CallingManager.swift in Sources */,
+				8D8280B52B5715F400BC7F02 /* Spacing.swift in Sources */,
+				8D8280C92B5719BA00BC7F02 /* CallViewModel.swift in Sources */,
+				8D8A2C3A2B569CD800F45E45 /* CallViewController.swift in Sources */,
+				8D8280BB2B5716BF00BC7F02 /* UIView+Constraints.swift in Sources */,
+				8D8A2C722B56D3C400F45E45 /* CommunicationManager.swift in Sources */,
+				8D8A2C702B56D3B600F45E45 /* NotificationManager.swift in Sources */,
 				8D8A2C362B569CD800F45E45 /* AppDelegate.swift in Sources */,
+				8D8A2C782B56E2FC00F45E45 /* AgoraKitProtocol.swift in Sources */,
 				8D8A2C382B569CD800F45E45 /* SceneDelegate.swift in Sources */,
+				8D8A2C752B56D9B500F45E45 /* UIApplicationProtocol.swift in Sources */,
+				8DE496622B5750E300FA0DC9 /* DispatchQueueProtocol.swift in Sources */,
+				8D8280B22B57152900BC7F02 /* CallView.swift in Sources */,
+				8D8280B92B57165D00BC7F02 /* LocalizedStrings.swift in Sources */,
+				8D8A2C7A2B56EA7500F45E45 /* PermissionsManager.swift in Sources */,
+				8D8280CC2B571A6D00BC7F02 /* CallProtocols.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,16 +395,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D8A2C4D2B569CDB00F45E45 /* CallMeMaybeTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8D8A2C4E2B569CDB00F45E45 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8D8A2C572B569CDB00F45E45 /* CallMeMaybeUITests.swift in Sources */,
-				8D8A2C592B569CDB00F45E45 /* CallMeMaybeUITestsLaunchTests.swift in Sources */,
+				8D8280C52B57193C00BC7F02 /* Mirror+Extensions.swift in Sources */,
+				8D8280CF2B573A4200BC7F02 /* AgoraKitSpy.swift in Sources */,
+				8D8280D12B573B4B00BC7F02 /* CommunicationManagerTests.swift in Sources */,
+				8DE496642B5752F500FA0DC9 /* DispatchQueueMock.swift in Sources */,
+				8D8280C42B57193C00BC7F02 /* CGSize+Extensions.swift in Sources */,
+				8DE4965A2B573CE500FA0DC9 /* UIApplicationSpy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,22 +412,9 @@
 			target = 8D8A2C312B569CD800F45E45 /* CallMeMaybe */;
 			targetProxy = 8D8A2C492B569CDB00F45E45 /* PBXContainerItemProxy */;
 		};
-		8D8A2C542B569CDB00F45E45 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8D8A2C312B569CD800F45E45 /* CallMeMaybe */;
-			targetProxy = 8D8A2C532B569CDB00F45E45 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8D8A2C3B2B569CD800F45E45 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8D8A2C3C2B569CD800F45E45 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8D8A2C402B569CDB00F45E45 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -435,23 +545,28 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CallMeMaybe/Resources/CallMeMaybe.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = M5JX3UJK7Q;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CallMeMaybe/Info.plist;
+				INFOPLIST_FILE = CallMeMaybe/Resources/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Access the microphone.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = Resources/LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.marcos.CallMeMaybe;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marcos.example-voice";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -463,23 +578,28 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CallMeMaybe/Resources/CallMeMaybe.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = M5JX3UJK7Q;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CallMeMaybe/Info.plist;
+				INFOPLIST_FILE = CallMeMaybe/Resources/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Access the microphone.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = Resources/LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.marcos.CallMeMaybe;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marcos.example-voice";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -495,7 +615,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = M5JX3UJK7Q;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.marcos.CallMeMaybeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -515,7 +635,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = M5JX3UJK7Q;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.marcos.CallMeMaybeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -523,42 +643,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CallMeMaybe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CallMeMaybe";
-			};
-			name = Release;
-		};
-		8D8A2C632B569CDB00F45E45 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M5JX3UJK7Q;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.marcos.CallMeMaybeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CallMeMaybe;
-			};
-			name = Debug;
-		};
-		8D8A2C642B569CDB00F45E45 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M5JX3UJK7Q;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.marcos.CallMeMaybeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CallMeMaybe;
 			};
 			name = Release;
 		};
@@ -592,16 +676,52 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8D8A2C622B569CDB00F45E45 /* Build configuration list for PBXNativeTarget "CallMeMaybeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8D8A2C632B569CDB00F45E45 /* Debug */,
-				8D8A2C642B569CDB00F45E45 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8D8A2C672B56A20400F45E45 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AgoraIO/AgoraRtcEngine_iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		8DE4965B2B573D6A00FA0DC9 /* XCRemoteSwiftPackageReference "Quick" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Quick";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		8DE4965E2B573D8700FA0DC9 /* XCRemoteSwiftPackageReference "Nimble" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Nimble";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 13.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8D8A2C692B56A2A400F45E45 /* RtcBasic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8D8A2C672B56A20400F45E45 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = RtcBasic;
+		};
+		8DE4965C2B573D6A00FA0DC9 /* Quick */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8DE4965B2B573D6A00FA0DC9 /* XCRemoteSwiftPackageReference "Quick" */;
+			productName = Quick;
+		};
+		8DE4965F2B573D8700FA0DC9 /* Nimble */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8DE4965E2B573D8700FA0DC9 /* XCRemoteSwiftPackageReference "Nimble" */;
+			productName = Nimble;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8D8A2C2A2B569CD800F45E45 /* Project object */;
 }
